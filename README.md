@@ -2,8 +2,7 @@ AWS CloudFormation Template describing a DynamoDB Table
 ===
 ----
 
-Use
+Parameters
 ---
-```bash
-$ aws cloudformation create-stack --stack-name simpleDynamoTable --template-body file://<ABSOLUTE_PATH_TO_TEMPLATE> --parameters ParameterKey=TableName,ParameterValue=user-table
-```
+
+- **TableName**: Name to be used for table.
